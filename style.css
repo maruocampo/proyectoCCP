@@ -1,7 +1,7 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 80%;
+  width: 100%;
   border-radius: 5px;
 }
 
@@ -18,6 +18,8 @@ img {
   float: left;
   width: 25%;
   padding: 0 10px;
+  margin-left: 10%;
+  margin-right:10%;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -39,8 +41,16 @@ img {
   }
 }
 
-/* Float four columns side by side */
-.columnv2 {
-  width: 20px;
-  column-count: 1;
+.columnizq {
+  width: 40%;
+  padding: 0 10px;
+  margin-left:5%;
+  margin-right:0%;
+  display: inline-block;
+  align-content:left;
+}
+
+
+body {
+  background-image: url('C:\\Users\\Ivan\\Desktop\\maru\\proyecto\\imagenes\\fondo.jpg');
 }
