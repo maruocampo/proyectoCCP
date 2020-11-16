@@ -30,3 +30,13 @@ for(var i = 0; i < 7; i++){
 }
 
 alert(mensaje);
+
+
+<h1>Tamaños de Input</h1>
+  <input class="form-control" type="text" placeholder="Default input">
+<input class="form-control input-sm" type="text" placeholder=".input-sm">
+
+<select class="form-control input-lg">...</select>
+<select class="form-control">...</select>
+<select class="form-control input-sm">...</select>
+
