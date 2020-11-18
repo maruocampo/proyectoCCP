@@ -1,0 +1,92 @@
+/*acomodado de recetas*/
+#titulo {
+  text-align: center;
+}
+.ingredientes{
+  text-align:left ;
+  margin-left:50px;
+  margin-right: 0px;
+  display: inline-block;
+}
+.preparacion{
+   text-align:right ;
+}
+h4 {
+  display: block;
+    margin-block-start: -20px;
+    margin-block-end: -40px;
+    margin-inline-start: 35px;
+    margin-inline-end: 300px;
+    font-weight: bold;
+}
+.clearfix {
+  padding: 0px;
+ width: 38%;  
+ display: inline-block;
+ margin-right:-30px; 
+ margin-left:0px; 
+margin-bottom:30px;
+margin:0px auto;
+position: absolute;
+    top: 47%;
+  height: 100px;
+  float: left;
+}
+
+
+
+.clearfixbizco {
+  padding: 0px;
+ width: 38%;  
+ display: inline-block;
+ margin-right:-30px; 
+ margin-left:0px; 
+margin-bottom:30px;
+margin:0px auto;
+position: absolute;
+    top: 55%;
+  height: 100px;
+  float: left;
+}
+
+
+
+.clearfixderecha {
+  padding: 0px;
+ width: 38%;  
+ margin-right:-30px; 
+ margin-left:100px; 
+margin-bottom:30px;
+    top: 30%;
+  height: 100px;
+  position: absolute;
+  left: 26%;
+}
+
+
+body{
+  background-image: url('https://maruocampo.000webhostapp.com/imagenes/fondo2.jpg');
+}
+ul{
+	    display: block;
+    list-style-type: disc;
+    margin-block-start: 2em;
+    margin-block-end: 1,5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 5px;
+    padding-inline-start: 45px;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 4em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: -190px;
+    padding-inline-start: 0px;
+}
+.row:after {
+  content: "";
+  display:inline-block;
+  clear: both;
+}
